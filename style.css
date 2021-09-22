@@ -1,0 +1,66 @@
+.header{
+    height: 250px;
+    background-color: rgb(30, 116, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header input{
+    padding-left: 10px;
+    width:250px;
+    border:none;
+    outline:none;
+    height: 35px;
+    border-radius: 10px;
+}
+.task{
+    height: 40px;
+    width: 70%;
+    background: #8ebf8a;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+#msg{
+    margin-left: 10px;
+}
+.listener{
+    display: flex;
+}
+.true{
+    width: 40px;
+    height: 40px;
+    background-color: #f3ac2c;
+    cursor: pointer;
+    background-image: url("http://cdn.onlinewebfonts.com/svg/img_385284.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.true img{
+    width: 70%;
+}
+.delete{
+    width: 40px;
+    height: 40px;
+    background-color: #b71717;
+    cursor: pointer;
+    background-image: url("https://icons.veryicon.com/png/o/construction-tools/coca-design/delete-189.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.delete img{
+    width: 70%;
+}
+.active-true{
+    text-decoration: line-through;
+}
